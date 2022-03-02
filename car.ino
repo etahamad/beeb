@@ -21,7 +21,7 @@ if(Serial.available()){
   Serial.println(t);
 }
 
-int analogSensor = analogRead(smokeA0);
+int analogSensor = analogRead(smokeA5);
 
 // Checks if it has reached the threshold value
 if (analogSensor > sensorThres){
