@@ -21,6 +21,7 @@ if(Serial.available()){
   Serial.println(t);
 }
 
+// MQ-2 
 int analogSensor = analogRead(smokeA5);
 
 // Checks if it has reached the threshold value
@@ -31,6 +32,7 @@ else{
     noTone(buzzer);
 }
 
+// H-Bridge
 if(t == 'F'){            // move forward(all motors rotate in forward direction)
   digitalWrite(13,HIGH);
   digitalWrite(11,HIGH);
