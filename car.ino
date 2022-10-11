@@ -61,5 +61,4 @@ else if(t == 'S'){      // STOP (all motors stop)
   digitalWrite(11,LOW);
   digitalWrite(10,LOW);
 }
-delay(100);
 }
